@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 // reactstrap components
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import TawkTo from "tawkto-react";
+import { Helmet } from "react-helmet";
 // import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
@@ -24,13 +24,7 @@ import TawkTo from "tawkto-react";
 // import SectionDownload from "views/index-sections/SectionDownload.js";
 
 function Index() {
-  useEffect(() => {
-    var tawk = new TawkTo(`647d294c7957702c744bbffd`, `1h24eilbc`);
 
-    tawk.onStatusChange((status) => {
-      console.log(status);
-    });
-  }, []);
 
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -41,6 +35,9 @@ function Index() {
   });
   return (
     <>
+      <Helmet>
+        <script src="//code.jivosite.com/widget/da4zYTurNi" async></script>
+      </Helmet>
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
