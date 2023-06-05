@@ -40,13 +40,13 @@ function IndexHeader() {
         />
         <h6 className="category category-absolute">
           <div className="buttons-container">
-            <a href="/">
+            <a href="http://wa.me/5585981099429" target="_blank">
               <button className="whatsapp">
                 <BsWhatsapp size={24} color="#fff" />
                 <div>Whatsapp</div>
               </button>
             </a>
-            <a href="/">
+            <a href="https://t.me/agentecypher" target="_blank">
               <button className="telegram">
                 <BsTelegram size={24} color="#fff" />
                 <div>Telegram</div>

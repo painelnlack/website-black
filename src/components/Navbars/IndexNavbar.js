@@ -77,7 +77,7 @@ function IndexNavbar() {
               <Button
                 className="btn-round-my"
                 color="danger"
-                href="/"
+                href="http://wa.me/5585981099429"
                 target="_blank"
               >
                 Entre em contato
